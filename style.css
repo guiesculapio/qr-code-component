@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 20rem;
+  width: 100%;
+  text-align: center;
+  gap : 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.titulo {
+  color: hsl(218, 44%, 22%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  margin: 0;
+}
+
+.paragrafo {
+  color: hsl(216, 15%, 48%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  margin: 0;
+  line-height: 1.5;
+  padding: 1rem;
+}
